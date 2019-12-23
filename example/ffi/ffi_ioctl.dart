@@ -31,14 +31,14 @@ class WinSize extends Struct {
   int ws_ypixel;
 }
 
-main() {
-  final DynamicLibrary libc = Platform.isMacOS
-      ? DynamicLibrary.open("/usr/lib/libSystem.dylib")
-      : DynamicLibrary.open("libc-2.28.so");
+void main() {
+  final libc = Platform.isMacOS
+      ? DynamicLibrary.open('/usr/lib/libSystem.dylib')
+      : DynamicLibrary.open('libc-2.28.so');
 
-  final ioctl = libc.lookupFunction<ioctlVoidNative, ioctlVoidDart>("ioctl");
+  final ioctl = libc.lookupFunction<ioctlVoidNative, ioctlVoidDart>('ioctl');
 
-  Pointer<WinSize> winSizePointer = ffi.allocate();
+  final winSizePointer = ffi.allocate<WinSize>();
   final result = ioctl(STDOUT_FILENO, TIOCGWINSZ, winSizePointer.cast());
   print('result is $result');
 
