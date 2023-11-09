@@ -1,0 +1,104 @@
+repo_name: donaldww/dart_console
+report_id: 8f4e71682eece9f50f4d50f04d1a3f52
+repo_type: Public
+timestamp: '2023-11-09T16:39:05+00:00'
+requested_by: donaldww
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: Repo Metadata
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Tim Sneath
+  last_updated_on: 2019-09-21 19:29:22.000000000 Z
+- name: ffi
+  website_url: https://github.com/ffi/ffi
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2558/111990.png
+  detection_source: pubspec.yaml
+  last_updated_by: Tim Sneath
+  last_updated_on: 2019-08-05 04:20:27.000000000 Z
+- name: test
+  website_url: test
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
+  detection_source: pubspec.yaml
+  last_updated_by: Tim Sneath
+  last_updated_on: 2019-11-12 04:14:04.000000000 Z
+- name: ffi
+  description: Utilities for working with Foreign Function Interface
+  package_url: https://pub.dartlang.org/ffi
+  version: 0.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: Tim Sneath
+  last_updated_on: 2019-08-05 04:20:27.000000000 Z
+- name: pedantic
+  description: The Dart analyzer settings and best practices used internally at Google
+  package_url: https://pub.dartlang.org/pedantic
+  version: 1.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: Tim Sneath
+  last_updated_on: 2019-12-14 02:38:11.000000000 Z
+- name: test
+  description: A full featured library for writing and running Dart tests across platforms
+  package_url: https://pub.dartlang.org/test
+  version: 1.9.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: Tim Sneath
+  last_updated_on: 2019-11-12 04:14:04.000000000 Z
